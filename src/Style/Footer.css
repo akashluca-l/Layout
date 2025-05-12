@@ -1,0 +1,124 @@
+.Footer{
+
+    background-color: #1A284E;
+    color: #fff;
+    padding: 1px;
+
+}
+
+
+
+.footer-wrapper{
+
+    display: flex;
+    margin-top: 70px;
+    gap: 120px;
+
+}
+
+.footer-wrapper div{
+
+    width: 50%;
+
+}
+
+.footer-wrapper div h2{
+    margin-bottom: 30px;
+
+}
+
+
+.products{
+
+    display: flex;
+    gap: 120px;
+
+}
+
+.products div a {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+  .copy{
+    
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+
+@media (max-width: 768px) {
+    .Footer {
+        padding: 20px 0;
+    }
+
+    .footer-wrapper {
+        display: block;
+        margin-top: 30px;
+        gap: 40px;
+    }
+
+    .footer-wrapper div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-wrapper div h2 {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .products {
+        display: block;
+        gap: 30px;
+    }
+
+    .products div {
+        text-align: center;
+    }
+
+    .products div a {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+    .copy {
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .copy div {
+        margin-bottom: 10px;
+    }
+
+    .copy img {
+        width: 50%;
+        max-width: 100px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-wrapper div h2 {
+        font-size: 18px;
+    }
+
+    .products div a {
+        font-size: 12px;
+    }
+
+    .copy div {
+        margin-bottom: 8px;
+    }
+
+    .copy img {
+        width: 40%;
+        max-width: 80px;
+    }
+}

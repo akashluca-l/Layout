@@ -1,0 +1,74 @@
+    .seprate-wrapper{
+
+        display: flex;
+        gap: 20px;
+        margin-bottom: 50px;
+
+    }
+
+    .seprate-wrapper div:nth-child(2){
+
+    display: flex;
+    align-items: center;
+    }
+
+    .seprate-wrapper>div h1{
+
+        color: #00E5FF;
+        font-size: 43px;
+        margin-bottom: 20px;
+
+    }
+
+    .btn a{
+
+        color: #fff;
+        padding: 20px;
+        } 
+
+    .btn a img{
+        transition: all 0.40s;
+    }
+
+    .btn a:hover{
+        background-color: #ff6f00;
+    }
+
+    .btn a:hover img{
+        transform: rotate(360deg);
+    }
+
+    @media screen and (max-width: 768px) {
+        .seprate-wrapper {
+            flex-direction: column;
+            gap: 30px;
+            padding: 0 15px;
+        }
+    
+        .seprate-wrapper>div h1 {
+            font-size: 28px;
+            text-align: center;
+        }
+    
+        .seprate-wrapper>div p {
+            font-size: 14px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+    
+        .btn {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+    
+        .btn a {
+            display: inline-block;
+            padding: 12px 20px;
+            font-size: 14px;
+            background-color: #00E5FF;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    }
+    

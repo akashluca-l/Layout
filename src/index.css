@@ -1,0 +1,41 @@
+
+*{
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+.container {
+
+  max-width: 1125px;
+  padding: 0px 15px;
+  margin: 0px auto;
+
+}
+
+a{
+
+  text-decoration: none;
+
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+button{
+
+  padding: 10px 20px 10px 20px; 
+  background-color: rgb(8, 145, 224);
+  color: white;
+  border-radius: 20px;
+
+
+}

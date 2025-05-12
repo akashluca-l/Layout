@@ -1,0 +1,138 @@
+.account-wrapper>div:first-child {
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+.account-wrapper>div:first-child h1 {
+
+  color: #00E5FF;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px
+}
+
+.account-wrapper>div:first-child p span {
+
+  display: block;
+
+}
+
+.account-wrapper>div:nth-child(2) {
+
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+
+}
+
+.account-wrapper>div>div a {
+
+  color: green;
+  cursor: pointer;
+
+}
+
+.account-wrapper>div>div:nth-child(1) {
+
+
+  background-color: #E0F7FA;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+
+.account-wrapper>div>div:nth-child(2) {
+
+
+  background-color: #ECECFE;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+
+.account-wrapper>div>div h3 {
+
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .account-wrapper > div:first-child {
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .account-wrapper > div:first-child h1 {
+      font-size: 24px;
+      margin-bottom: 15px;
+  }
+
+  .account-wrapper > div:first-child p span {
+      font-size: 14px;
+  }
+
+  .account-wrapper > div:nth-child(2) {
+      display: block;
+      gap: 20px;
+      margin-bottom: 30px;
+  }
+
+  .account-wrapper > div > div {
+      background-color: #E0F7FA;
+      padding: 20px;
+      border-radius: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .account-wrapper > div > div:nth-child(2) {
+      background-color: #ECECFE;
+  }
+
+  .account-wrapper > div > div h3 {
+      font-size: 18px;
+      margin-bottom: 15px;
+  }
+
+  .account-wrapper > div > div p {
+      font-size: 14px;
+      margin-bottom: 15px;
+  }
+
+  .account-wrapper > div > div a {
+      color: green;
+      cursor: pointer;
+      font-size: 14px;
+  }
+}
+
+/* For smaller mobile screens (Portrait) */
+@media (max-width: 480px) {
+  .account-wrapper > div:first-child h1 {
+      font-size: 20px;
+  }
+
+  .account-wrapper > div:first-child p span {
+      font-size: 12px;
+  }
+
+  .account-wrapper > div > div {
+      padding: 15px;
+      margin-bottom: 15px;
+  }
+
+  .account-wrapper > div > div h3 {
+      font-size: 16px;
+  }
+
+  .account-wrapper > div > div p {
+      font-size: 12px;
+  }
+
+  .account-wrapper > div > div a {
+      font-size: 12px;
+  }
+}

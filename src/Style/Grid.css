@@ -1,0 +1,166 @@
+.grid{
+
+    background-color: #E0F7FA;
+
+}
+
+
+.grid-wrapper>div{
+
+
+    padding: 30px;
+    display: flex;
+    align-items: center ;
+
+}
+
+.grid-wrapper>div>div>div{
+
+    display: flex;
+    gap: 40px;
+
+}
+
+    .grid-wrapper>div>div img{
+
+        width: 100%;
+
+    }
+
+.grid-wrapper>div>div h1{
+
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+
+.grid-wrapper>div>div h1, p span{
+
+    display: block;
+
+}
+
+.grid-wrapper>div>div h1>span:nth-child(1){
+
+    color: #651FFF;
+
+}
+
+
+
+.grid-wrapper>div>div p{
+
+        font-size: 20px;
+
+}
+
+.gridImg{
+
+    height: auto;
+    max-width: 100%;
+
+}
+
+.phone img{
+
+    display: flex;
+    gap: 60px;
+    margin-left: 30px;
+    width: 260px;
+    height: auto;
+
+
+}
+
+
+@media (max-width: 768px) {
+    .grid-wrapper > div {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .grid-wrapper > div > div > div {
+        display: block;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .grid-wrapper > div > div h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .grid-wrapper > div > div p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .grid-wrapper > div > div h1 > span:nth-child(1) {
+        font-size: 35px;
+    }
+
+    .grid-wrapper > div > div h1 span, 
+    .grid-wrapper > div > div p span {
+        font-size: 16px;
+    }
+
+    .grid-wrapper > div > div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gridImg {
+        width: 100%;
+        height: auto;
+    }
+
+    .phone {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .phone img {
+        width: 200px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .btn {
+        padding: 12px 20px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-wrapper > div {
+        padding: 15px;
+    }
+
+    .grid-wrapper > div > div h1 {
+        font-size: 24px;
+    }
+
+    .grid-wrapper > div > div p {
+        font-size: 14px;
+    }
+
+    .grid-wrapper > div > div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .phone img {
+        width: 170px;
+        height: auto;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+}
